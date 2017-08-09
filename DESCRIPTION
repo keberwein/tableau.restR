@@ -1,0 +1,21 @@
+Package: tableau.restR
+Title: An R Interface for the Tableau Server REST API
+Version: 0.0.0.9000
+Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
+Description: Connect to the REST API of your Tableau Server and execute various commands.
+Depends: R (>= 3.3.3)
+Imports:
+	httr,
+	jsonlite,
+	magrittr
+Suggests:
+	testthat,
+    	knitr,
+    	rmarkdown
+License: What license is it under?
+License: MIT + file LICENSE
+URL: https://github.com/keberwein/tableau.restR
+BugReports: https://github.com/keberwein/tableau.restR/issues
+LazyData: true
+RoxygenNote: 6.0.1
+VignetteBuilder: knitr
